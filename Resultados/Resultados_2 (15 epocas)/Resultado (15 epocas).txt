@@ -1,0 +1,22 @@
+Resultados:
+
+BETO:
+acc: 1.0
+
+DistilBert:
+acc: 1.0
+f1: 1.0
+
+BERT:
+acc: 0.8951111111111111
+f1: 0.9097859327217125
+
+Bertin:
+acc: 0.9982222222222222
+
+DistilBert_2: (3 labels)
+acc: 1.0
+
+Ruperta_Fake:
+acc: 1.0
+f1: 1.0

@@ -1,0 +1,97 @@
+(Topicos_IA) d:\Cursos de Universidad\Semestre 9\Top IA\Dataset\Scripts>python main.py
+True
+0
+<torch.cuda.device object at 0x000002131AE07850>
+1
+NVIDIA GeForce RTX 3060 Laptop GPU
+True
+bert
+finiteautomata/beto-sentiment-analysis
+D:\Anaconda\Anaconda\envs\Topicos_IA\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Epochs 0/5. Running Loss:    0.0559: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [23:33<00:00,  6.19it/s]
+Epochs 1/5. Running Loss:    0.7711: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [32:39<00:00,  4.47it/s]
+Epochs 2/5. Running Loss:    0.6562: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [48:35<00:00,  3.00it/s]
+Epochs 3/5. Running Loss:    0.6838: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [30:29<00:00,  4.78it/s]
+Epochs 4/5. Running Loss:    0.6956: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [29:36<00:00,  4.93it/s]
+Epoch 5 of 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [2:44:54<00:00, 1978.81s/it]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3750/3750 [02:54<00:00, 21.55it/s]
+True
+distilbert
+distilbert-base-multilingual-cased
+Some weights of the model checkpoint at distilbert-base-multilingual-cased were not used when initializing DistilBertForSequenceClassification: ['vocab_projector.weight', 'vocab_projector.bias', 'vocab_transform.weight', 'vocab_layer_norm.bias', 'vocab_layer_norm.weight', 'vocab_transform.bias']
+- This IS expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'pre_classifier.weight', 'pre_classifier.bias', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+D:\Anaconda\Anaconda\envs\Topicos_IA\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Epochs 0/5. Running Loss:    0.7978: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [20:32<00:00,  7.10it/s]
+Epochs 1/5. Running Loss:    0.0276: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [1:04:58<00:00,  2.24it/s]
+Epochs 2/5. Running Loss:    0.0030: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [23:11<00:00,  6.29it/s]
+Epochs 3/5. Running Loss:    0.0037: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [21:56<00:00,  6.65it/s]
+Epochs 4/5. Running Loss:    0.0008: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [20:17<00:00,  7.19it/s]
+Epoch 5 of 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [2:30:55<00:00, 1811.14s/it]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3750/3750 [01:32<00:00, 40.65it/s]
+True
+bert
+bert-base-multilingual-cased
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertForSequenceClassification: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+D:\Anaconda\Anaconda\envs\Topicos_IA\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Epochs 0/5. Running Loss:    0.6550: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [45:44<00:00,  3.19it/s]
+Epochs 1/5. Running Loss:    0.7019: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [45:52<00:00,  3.18it/s]
+Epochs 2/5. Running Loss:    0.6909: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [42:53<00:00,  3.40it/s]
+Epochs 3/5. Running Loss:    0.6895: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [31:02<00:00,  4.70it/s]
+Epochs 4/5. Running Loss:    0.6996: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [26:01<00:00,  5.61it/s]
+Epoch 5 of 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [3:11:35<00:00, 2299.01s/it]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3750/3750 [02:06<00:00, 29.67it/s]
+True
+roberta
+bertin-project/bertin-base-xnli-es
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at bertin-project/bertin-base-xnli-es and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+D:\Anaconda\Anaconda\envs\Topicos_IA\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Epochs 0/5. Running Loss:    0.7210: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [32:29<00:00,  4.49it/s]
+Epochs 1/5. Running Loss:    0.7268: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [54:22<00:00,  2.68it/s]
+Epochs 2/5. Running Loss:    0.6630: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [32:58<00:00,  4.42it/s]
+Epochs 3/5. Running Loss:    0.6729: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [36:33<00:00,  3.99it/s]
+Epochs 4/5. Running Loss:    0.7025: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [38:56<00:00,  3.75it/s]
+Epoch 5 of 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [3:15:20<00:00, 2344.07s/it]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3750/3750 [02:22<00:00, 26.32it/s]
+True
+0
+<torch.cuda.device object at 0x000001FC2BB17850>
+1
+NVIDIA GeForce RTX 3060 Laptop GPU
+True
+distilbert
+philschmid/distilbert-base-multilingual-cased-sentiment-2
+D:\Anaconda\Anaconda\envs\Topicos_IA\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Epochs 0/5. Running Loss:    1.1236: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [18:50<00:00,  7.74it/s]
+Epochs 1/5. Running Loss:    2.2075: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [17:30<00:00,  8.33it/s]
+Epochs 2/5. Running Loss:    0.8129: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [18:15<00:00,  7.99it/s]
+Epochs 3/5. Running Loss:    0.0061: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [19:02<00:00,  7.66it/s]
+Epochs 4/5. Running Loss:    0.0057: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [18:10<00:00,  8.03it/s]
+Epoch 5 of 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [1:31:48<00:00, 1101.68s/it]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3750/3750 [01:17<00:00, 48.10it/s]
+True
+roberta
+edumunozsala/RuPERTa_base_sentiment_analysis_es
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at edumunozsala/RuPERTa_base_sentiment_analysis_es and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+D:\Anaconda\Anaconda\envs\Topicos_IA\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Epochs 0/5. Running Loss:    0.0927: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [29:28<00:00,  4.95it/s]
+Epochs 1/5. Running Loss:    0.6641: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [34:26<00:00,  4.24it/s]
+Epochs 2/5. Running Loss:    0.7476: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [1:13:09<00:00,  1.99it/s]
+Epochs 3/5. Running Loss:    0.7086: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [30:17<00:00,  4.81it/s]
+Epochs 4/5. Running Loss:    0.8815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8750/8750 [27:21<00:00,  5.33it/s]
+Epoch 5 of 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [3:14:42<00:00, 2336.51s/it]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3750/3750 [02:31<00:00, 24.69it/s]
